@@ -9,7 +9,7 @@ width: 700px;
 margin: auto;
 @media screen and (max-width:786px){
  flex-direction:column-reverse;
- width:100%;
+ width:80%;
 }
 
 `;
@@ -24,7 +24,7 @@ margin:auto;
   
     
     width: 100%;
-    padding: 0 2rem;
+   
 }
 
 `;
@@ -36,9 +36,7 @@ justify-content:flex-start;
 max-width:900px;
 
 padding:1rem;
-@media screen and (max-width:786px){
-   
-}
+
 
 `;
 const InfoWrapper = styled.div`
