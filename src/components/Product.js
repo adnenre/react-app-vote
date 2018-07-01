@@ -30,10 +30,18 @@ const ProductItem = styled.div`
     &:hover{
         transform: scale(1.05);
     }
+    @media screen and (max-width:400px){
+        
+        flex-direction:column;
+    }
     
 `;
 const ItemImage = styled.div`
     width:150px;
+    @media screen and (max-width:400px){
+        
+        width:100%;
+    }
 
 `;
 const Image = styled.img`
@@ -85,11 +93,22 @@ const ItemFooter = styled.div`
     background: transparent;
     border-left: solid 1px #ddd;
     color:#777;
+    @media screen and (max-width:400px){
+        min-height:50px;
+        flex-direction:row;
+        align-item:center;
+        align-items: center;
+        border-radius: 0;
+        border-top: solid 1px #eee;
+    }
 `;
-const Btn = styled.a`
+const Btn = styled.button`
   cursor:pointer;
   width:25px;
   height:25px;
+  border:none;
+  background:transparent;
+  outline:none;
   display:flex;
   
   &:hover:hover{

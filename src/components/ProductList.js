@@ -5,8 +5,9 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
 display: flex;
-width: 700px;
+width: 90%;
 margin: auto;
+max-width: 1200px;
 @media screen and (max-width:786px){
  flex-direction:column-reverse;
  width:80%;
@@ -17,12 +18,13 @@ const WrapperLeft = styled.div`
 
 display:flex;
 flex-direction:column;
-max-width:900px;
-margin:auto;
 
+flex-direction: column;
+margin: auto;
+max-width: 700px;
+flex: 2;
 @media screen and (max-width:786px){
-  
-    
+
     width: 100%;
    
 }
@@ -33,7 +35,9 @@ const WrapperRight = styled.div`
 display:flex;
 flex-direction:column;
 justify-content:flex-start;
-max-width:900px;
+padding: 1rem;
+flex: 1;
+align-items: center;
 
 padding:1rem;
 
