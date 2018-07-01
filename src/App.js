@@ -20,7 +20,7 @@ const RibbonLink = styled.a`
 
 class App extends Component {
   render() {
-    const repoUrl = "https://adnenre.github.io";
+    const repoUrl = "https://github.com/adnenre/react-app-vote";
     const GithubRepoLink =() => {
        return  < RibbonLink href={repoUrl} target="_blank">
                       <img src="images/githubRibbon.png" alt="github link" />
