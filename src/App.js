@@ -15,7 +15,14 @@ const RibbonLink = styled.a`
   right:0;
   width:150px;
   height:150px;
-  
+  @media screen and (max-width:400px){
+    width:50px;
+    height:50px;
+    >img{
+      width:inherit;
+      height:inherit;
+    }
+  }
 `;
 
 class App extends Component {
