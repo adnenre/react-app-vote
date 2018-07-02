@@ -114,7 +114,7 @@ class ProductList extends React.Component{
         
         let voteList =  this.state.products.map(({votes}) => votes);
         let totalVote = voteList.reduce((a,b) => a+b,0);
-        return totalVote;
+        return Math.abs(totalVote);
         
     }
     
